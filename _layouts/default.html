@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include nav.html %}
+<main class="content">
+  <div class="content-inner">
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</main>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/catalog.js' | relative_url }}"></script>
+</body>
+</html>

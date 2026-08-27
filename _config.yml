@@ -1,0 +1,12 @@
+title: K-BLOOM
+description: K-BLOOM(Korean BiomedicaL OmOp Multimodal Network) — 소아 다기관 멀티모달 CDM 네트워크 소개, 데이터 구성, 이용 방법, 기관별 담당자 안내
+baseurl: ""
+url: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins: []
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

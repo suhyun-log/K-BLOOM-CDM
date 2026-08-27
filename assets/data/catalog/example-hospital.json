@@ -1,0 +1,54 @@
+{
+  "hospital_id": "example",
+  "hospital_name": "샘플 기관 (템플릿 — 실제 데이터 아님)",
+  "updated": "2026-06-30",
+  "reviewed": false,
+  "period": { "start": "2004-10", "end": "2024-12" },
+  "patient_count": 788148,
+
+  "core_metrics": [
+    { "label": "Condition records", "value": 12480000 },
+    { "label": "Drug exposure records", "value": 9310000 },
+    { "label": "Measurement records", "value": 41200000 },
+    { "label": "Visit occurrences", "value": 2210000 }
+  ],
+
+  "domain_distribution": [
+    { "label": "Condition", "value": 12480000 },
+    { "label": "Drug", "value": 9310000 },
+    { "label": "Measurement", "value": 41200000 },
+    { "label": "Procedure", "value": 3040000 },
+    { "label": "Observation", "value": 5620000 }
+  ],
+
+  "modalities": [
+    {
+      "name": "생체신호 (Bio_signal)",
+      "note": "12-lead ECG, Holter, 운동부하검사, EMG 등",
+      "metrics": [
+        { "label": "12-lead ECG 검사 건수", "value": 184320 },
+        { "label": "Holter 검사 건수", "value": 6120 },
+        { "label": "희귀 진단코드 연계 건수", "value": "< 5" }
+      ]
+    },
+    {
+      "name": "영상이미지 (Image_occurrence)",
+      "note": "모달리티별 스터디 수",
+      "metrics": [
+        { "label": "X-ray 스터디", "value": 512300 },
+        { "label": "MRI 스터디", "value": 41200 },
+        { "label": "초음파 스터디", "value": 98700 }
+      ]
+    },
+    {
+      "name": "유전체 (Genomic data / Omics CDM)",
+      "note": "구축 예정 · 데이터 없음",
+      "metrics": []
+    },
+    {
+      "name": "디지털병리 (Pathology CDM)",
+      "note": "구축 예정 · 데이터 없음",
+      "metrics": []
+    }
+  ]
+}

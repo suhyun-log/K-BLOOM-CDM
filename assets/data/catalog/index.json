@@ -1,0 +1,7 @@
+{
+  "updated": "2026-06-30",
+  "note": "각 항목의 file은 assets/data/catalog/ 기준 상대경로입니다. 병원이 추가되면 이 배열에 한 줄만 추가하세요.",
+  "hospitals": [
+    { "id": "example", "name": "샘플 기관 (템플릿)", "file": "example-hospital.json" }
+  ]
+}
